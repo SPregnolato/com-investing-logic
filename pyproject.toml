@@ -3,13 +3,11 @@ name = "com-investing-logic"
 version = "0.1.0"
 description = ""
 authors = ["SPregnolato <s.pregnolato@pm.me>"]
+license = "MIT"
 readme = "README.md"
-packages = [{include = "com_investing_logic", from = "src"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
-pandas = "^2.1.3"
-numpy = "^1.26.2"
+python = "^3.9"
 
 
 [build-system]
