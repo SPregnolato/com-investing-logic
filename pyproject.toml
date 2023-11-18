@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "com-investing-logic"
+version = "0.1.0"
+description = ""
+authors = ["SPregnolato <s.pregnolato@pm.me>"]
+readme = "README.md"
+packages = [{include = "com_investing_logic", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
