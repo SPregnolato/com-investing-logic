@@ -8,6 +8,8 @@ packages = [{include = "com_investing_logic", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+pandas = "^2.1.3"
+numpy = "^1.26.2"
 
 
 [build-system]
