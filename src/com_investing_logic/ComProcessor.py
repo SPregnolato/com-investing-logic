@@ -97,7 +97,7 @@ if __name__ == "__main__":
     fig.update_layout(
         title="Qty ratio based on qty",
         xaxis=dict(title="Qty"),
-        yaxis=dict(title="CoM_Potential/CoM"),
+        yaxis=dict(title="Qty_Potential/Qty"),
         hovermode="x",  # Show hover information at the nearest point along the x-axis
         showlegend=False,  # Hide legend for this example
     )
